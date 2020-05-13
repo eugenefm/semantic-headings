@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/eugenefm/semantic-headings.git"
   },
-  "keywords": [],
+  "keywords": ["react", "semantic", "a11y", "heading", "ui", "accessibility"],
   "author": "Eugene Michasiw <eugene@michasiw.com>",
   "license": "MIT",
   "bugs": {

@@ -17,9 +17,9 @@ import { H, SemanticSection } from 'semantic-headings';
   <H>Hello World</H> 
 </SemanticSection>
 
-// renders an h1, h2, h3
+// renders an h1, h2, and h3
 <H>Hello World</H>
-## Getting started
+<SemanticSection> 
   <H>Hello World</H>
   <SemanticSection> 
     <H>Hello World</H> 
@@ -31,7 +31,7 @@ import { H, SemanticSection } from 'semantic-headings';
 
 ### Section Elements
 
-By default the `SemanticSection` component does not render it's own element to the dom. However a component or element can be passed to the component using the `element` prop. Any additional props and refs passed to the component will be forwarded to that element. 
+By default the `SemanticSection` component does not render it's own element to the DOM. However a react component or element can be passed to `SemanticSection` using its `element` prop. Any additional props and refs passed to the component will be forwarded to that element. 
 
 ```
 <SemanticSection element="div"> 
