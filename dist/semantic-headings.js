@@ -2,7 +2,7 @@
  * semantic-headings
  * A React utility for dynamically generating headings with the correct semantic order.
  * 
- * @version v1.0.0
+ * @version v1.0.1
  * @author Eugene Michasiw <eugene@michasiw.com>
  * @homepage https://github.com/eugenefm/semantic-headings/
  * @repository git+https://github.com/eugenefm/semantic-headings.git
