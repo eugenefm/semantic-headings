@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const mode = require('yargs').argv.mode;
+const { mode } = require('yargs').argv;
 const libraryTarget = require('yargs').argv['output-library-target'];
 const pkg = require('./package.json');
 
@@ -40,5 +40,5 @@ module.exports = {
       },
     ],
   },
-  plugins: plugins,
+  plugins,
 };

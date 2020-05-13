@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render h1 1`] = `
+<div>
+  <h1>
+    Hello World
+  </h1>
+</div>
+`;
+
+exports[`should render h1 through h3 1`] = `
+<div>
+  <h1>
+    Hello World
+  </h1>
+  <h2>
+    Hello World
+  </h2>
+  <h3>
+    Hello World
+  </h3>
+  <h2>
+    Hello World
+  </h2>
+  <h3>
+    Hello World
+  </h3>
+</div>
+`;
+
+exports[`should render h1 through h3 with override to h4 1`] = `
+<div>
+  <h1>
+    Hello World
+  </h1>
+  <h2>
+    Hello World
+  </h2>
+  <h3>
+    Hello World
+  </h3>
+  <h2>
+    Hello World
+  </h2>
+  <h4>
+    Hello World
+  </h4>
+</div>
+`;
+
+exports[`should render h1 through h6 without going over 1`] = `
+<div>
+  <h1>
+    Hello World
+  </h1>
+  <h2>
+    Hello World
+  </h2>
+  <h3>
+    Hello World
+  </h3>
+  <h4>
+    Hello World
+  </h4>
+  <h5>
+    Hello World
+  </h5>
+  <h6>
+    Hello World
+  </h6>
+  <h6>
+    Hello World
+  </h6>
+  <h6>
+    Hello World
+  </h6>
+</div>
+`;
+
+exports[`should render h2 1`] = `
+<div>
+  <h2>
+    Hello World
+  </h2>
+</div>
+`;
+
+exports[`should render h2 wrapped in a <section> 1`] = `
+<div>
+  <section>
+    <h2>
+      Hello World
+    </h2>
+  </section>
+</div>
+`;
