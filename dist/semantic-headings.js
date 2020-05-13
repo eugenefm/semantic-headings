@@ -109,10 +109,18 @@ return /******/ (function(modules) { // webpackBootstrap
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: SemanticSection, H */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./src */ "./src/index.js").default;
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _src__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src */ "./src/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SemanticSection", function() { return _src__WEBPACK_IMPORTED_MODULE_0__["SemanticSection"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "H", function() { return _src__WEBPACK_IMPORTED_MODULE_0__["H"]; });
+
+
+
 
 /***/ }),
 

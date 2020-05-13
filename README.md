@@ -51,3 +51,7 @@ If you want to override the automatically generated level. You can do so using t
 ```
 <H level={6}>Hello World</H> // <h6>Hello World</h6>
 ```
+
+### Credit
+
+The approached used in this library was inspired by [@Heydon's medium post](https://medium.com/@Heydon/managing-heading-levels-in-design-systems-18be9a746fa3).

@@ -1,1 +1,3 @@
-module.exports = require('./src').default;
+import { SemanticSection, H } from './src';
+
+export { SemanticSection, H };
