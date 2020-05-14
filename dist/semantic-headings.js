@@ -2,20 +2,20 @@
  * semantic-headings
  * A React utility for dynamically generating headings with the correct semantic order.
  * 
- * @version v1.0.3
+ * @version v1.0.4
  * @author Eugene Michasiw <eugene@michasiw.com>
  * @homepage https://github.com/eugenefm/semantic-headings/
  * @repository git+https://github.com/eugenefm/semantic-headings.git
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("PropTypes"), require("react"));
+		module.exports = factory(require("prop-types"), require("react"));
 	else if(typeof define === 'function' && define.amd)
-		define("semantic-headings", ["PropTypes", "react"], factory);
+		define("semantic-headings", ["prop-types", "react"], factory);
 	else if(typeof exports === 'object')
-		exports["semantic-headings"] = factory(require("PropTypes"), require("react"));
+		exports["semantic-headings"] = factory(require("prop-types"), require("react"));
 	else
-		root["semantic-headings"] = factory(root["PropTypes"], root["react"]);
+		root["semantic-headings"] = factory(root["PropTypes"], root["React"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE_prop_types__, __WEBPACK_EXTERNAL_MODULE_react__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -219,9 +219,9 @@ var getHeadingLevel = function getHeadingLevel(auto, overide) {
 /***/ }),
 
 /***/ "prop-types":
-/*!****************************!*\
-  !*** external "PropTypes" ***!
-  \****************************/
+/*!*********************************************************************************************************!*\
+  !*** external {"root":"PropTypes","commonjs2":"prop-types","commonjs":"prop-types","amd":"prop-types"} ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -230,9 +230,9 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_prop_types__;
 /***/ }),
 
 /***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/*!**************************************************************************************!*\
+  !*** external {"root":"React","commonjs2":"react","commonjs":"react","amd":"react"} ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

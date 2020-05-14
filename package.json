@@ -1,6 +1,6 @@
 {
   "name": "semantic-headings",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React utility for dynamically generating headings with the correct semantic order.",
   "main": "lib/semantic-headings.js",
   "files": [
